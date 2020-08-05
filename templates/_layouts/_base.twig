@@ -1,0 +1,32 @@
+{% set baseUrl = alias('@web') ~ '/' %}
+{% set devMode = craft.app.config.general.devMode %}
+{% set lang = craft.app.language |slice(0,2) %}
+{% set pageClass = pageClass ?? pageClass ?? false %}
+{% apply spaceless %}
+<!DOCTYPE html>
+<html lang="{{ lang }}" class="h-100">
+    <head>
+        {% block head %}
+        {# -- Meta header tags -- #}
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, minimum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        {# -- Links -- #}
+        <link rel="dns-prefetch" href="{{ baseUrl }}">
+        <link rel="preconnect" href="{{ baseUrl }}" crossorigin="">
+        <link rel="stylesheet" href="{{ baseUrl }}assets/dist/main.css">
+        {% endblock %}
+    </head>
+    <body class="{{ pageClass|lower|replace({' ': '-'}) }}">
+        <noscript>Your browser does not support JavaScript!</noscript>
+        <div id="app">
+            {% include '_includes/_components/_header/index' %}
+            {% block body %}{% endblock %}
+            {% include '_includes/_components/_footer/index' %}
+        </div>
+        <script src="{{ baseUrl }}assets/dist/main.js"></script>
+        {{ endBody() }}
+    </body>
+</html>
+{% endapply %}
