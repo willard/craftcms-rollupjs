@@ -6,6 +6,7 @@ A Craft CMS - RollupJS Starter using TailwindCSS and AlpineJS.
 ### Dependencies
 
 * [Craft CMS](https://craftcms.com/)
+* [Composer](https://getcomposer.org/)
 * [Node](https://nodejs.org/) (>= 8.9.0)
 * [NPM](https://www.npmjs.com/)
 * [RollupJS](https://rollupjs.org/guide/en/)
