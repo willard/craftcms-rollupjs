@@ -1,5 +1,5 @@
-# CraftCMS-RollupJS
-A Craft CMS - RollupJS Starter
+# CraftCMS + RollupJS
+A Craft CMS - RollupJS Starter using TailwindCSS and AlpineJS. 
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ A Craft CMS - RollupJS Starter
 * [AlpineJS](https://github.com/alpinejs/alpine)
 
 ### Setup
-1.  `git clone https://github.com/willard/CraftCMS-RollupJS.git`
+1.  `git clone https://github.com/willard/craftcms-rollupjs.git`
 1.  `cd CraftCMS-RollupJS`
 1.  `composer install`
 1.  `npm install`
