@@ -1,5 +1,5 @@
 # CraftCMS + RollupJS
-A Craft CMS - RollupJS Starter using TailwindCSS and AlpineJS. 
+A Craft CMS - RollupJS Starter kit using TailwindCSS and AlpineJS. 
 
 ## Getting Started
 
