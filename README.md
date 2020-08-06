@@ -13,6 +13,7 @@ A Craft CMS - RollupJS Starter kit using TailwindCSS and AlpineJS.
 * [PostCSS](https://postcss.org/)
 * [TailwindCSS](https://tailwindcss.com/)
 * [AlpineJS](https://github.com/alpinejs/alpine)
+* [Navigation Plugin](https://github.com/verbb/navigation)
 
 ### Setup
 1.  `git clone https://github.com/willard/craftcms-rollupjs.git`
