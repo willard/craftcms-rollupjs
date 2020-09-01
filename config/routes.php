@@ -1,6 +1,6 @@
 <?php
 /**
- * Site URL Rules
+ * Site URL Rules.
  *
  * You can define custom site URL rules here, which Craft will check in addition
  * to any routes you’ve defined in Settings → Routes.
