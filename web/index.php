@@ -1,6 +1,6 @@
 <?php
 /**
- * Craft web bootstrap file
+ * Craft web bootstrap file.
  */
 
 // Set path constants
